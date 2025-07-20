@@ -1,31 +1,29 @@
 # CharterWise Landing Page
 
-Welcome to the official GitHub repository for **CharterWise**, your smart solution for chartering transportation the wise way.
+This is the official landing page for **CharterWise** — the smart, reliable way to book group transportation.
 
-## 🌐 Live Preview
+## 🚌 About
 
-[charterwise.us](http://charterwise.us) *(once connected)*
+CharterWise connects customers with top-rated charter bus vendors across the U.S. This landing page highlights our brand, mission, and how visitors can get in touch.
 
-## 🚀 About CharterWise
+## 📁 Files Included
 
-CharterWise aims to revolutionize group transportation by connecting customers with reliable bus vendors across the country. Our mission is to make chartering simple, efficient, and affordable — the wise way!
+- `index.html` — Main landing page
 
-## 📁 Project Structure
+## 🚀 How to Deploy
 
-- `index.html` — Main landing page with a modern, bus-friendly and warm design.
+### Option 1: GitHub Pages
 
-## 🔧 How to Deploy with GitHub Pages
+1. Create a GitHub repository (e.g. `charterwise-landing`).
+2. Upload the `index.html` file to the root of the repo.
+3. Go to **Settings > Pages**.
+4. Under **Source**, select the `main` branch and set directory to `/root`.
+5. Click **Save** — GitHub will generate a live URL.
 
-1. **Create a GitHub Repository** — Name it something like `charterwise-landing`.
-2. **Upload `index.html`** — Drag and drop or commit using Git.
-3. **Go to Settings → Pages**.
-4. Under "Source", choose `main` branch and root (`/`) directory.
-5. Click Save — GitHub will give you a public URL in a few minutes.
+### Option 2: Connect Custom Domain (charterwise.us)
 
-## 🌐 Connect Your Domain (charterwise.us)
-
-1. Go to GoDaddy → Manage DNS.
-2. Add a CNAME record:
-   - **Host**: `www`
-   - **Points to**: `yourusername.github.io`
-3. In GitHub, create a file named `CNAME` in the repo with:
+1. Go to your GoDaddy account → DNS Settings.
+2. Add a **CNAME** record:
+   - **Name/Host**: `www`
+   - **Value/Points to**: `yourusername.github.io`
+3. In GitHub, create a file called `CNAME` (no extension) in the repo with the following:
